@@ -174,13 +174,13 @@ void help(){
 			printf("\t\t\t\tHighscore akan mencatat \n");
 			printf("\t\t\t\triwayat point pemain dalam\n");
 			printf("\t\t\t\tpermainan\n");
-			printf("\t\t\t\t• Jika pemain memenangkan \n");
+			printf("\t\t\t\tâ€¢ Jika pemain memenangkan \n");
 			printf("\t\t\t\t  permainan, maka point win \n");
 			printf("\t\t\t\t  akan bertambah 3.\n");
-			printf("\t\t\t\t• Jika hasil permainan \n");
+			printf("\t\t\t\tâ€¢ Jika hasil permainan \n");
 			printf("\t\t\t\t  imbang, maka point draw \n");
 			printf("\t\t\t\t  akan bertambah 1.\n");
-			printf("\t\t\t\t• Jika pemain mengalami \n");
+			printf("\t\t\t\tâ€¢ Jika pemain mengalami \n");
 			printf("\t\t\t\t  kekalahan, maka point lose \n");
 			printf("\t\t\t\t  akan dikurangi 1.\n");
 			printf("\n\t\t\t\t>>>---------------------<<<\n\n");
