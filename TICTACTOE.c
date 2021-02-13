@@ -287,23 +287,25 @@ void PilihanModeHighscore(){
 void input_nama(int musuh, int mode){
 	printf("\n\t\t\t\t(Maksimal 25 Karakter)");
 	printf("\n\t\t\t\tPlease enter a name Player 1: ");
+	fflush(stdin);
 	if(mode==3){
-		scanf("%s", pemain_3x3[0].nama);	
+		scanf("%[^\n]", pemain_3x3[0].nama);	
 	}else if(mode==5){
-		scanf("%s", pemain_5x5[0].nama);
+		scanf("%[^\n]", pemain_5x5[0].nama);
 	}else{
-		scanf("%s", pemain_7x7[0].nama);
+		scanf("%[^\n]", pemain_7x7[0].nama);
 	}
 	
 	if(musuh==1){
 		printf("\n\t\t\t\t(Maksimal 25 Karakter)");
 		printf("\n\t\t\t\tPlease enter a name Player 2: ");
+		fflush(stdin);
 		if(mode==3){
-			scanf("%s", pemain_3x3[1].nama);	
+			scanf("%[^\n]", pemain_3x3[1].nama);	
 		}else if(mode==5){
-			scanf("%s", pemain_5x5[1].nama);
+			scanf("%[^\n]", pemain_5x5[1].nama);
 		}else{
-			scanf("%s", pemain_7x7[1].nama);
+			scanf("%[^\n]", pemain_7x7[1].nama);
 		}
 	}
 } 
